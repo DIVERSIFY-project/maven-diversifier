@@ -14,6 +14,9 @@ This processor invert the if condition and the then and else blocks.
 ## VariableDeclaration
 This processor move variable declarations to the begin of block.
 
+## EncryptLiteralProcessor
+This processor encrypt with AES all possibles Strings and primitives types in your source code.
+
 # Diversify a Maven project
 
 To process a Java-Maven project with the processor, you can add the following snippet to the pom.xml file:
